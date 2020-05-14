@@ -16,7 +16,7 @@ public class Test {
 		Student student=(Student) application.getBean("student1",Student.class);
 		student.setId(1);
 		student.setName("yiguang");
-		student.setSex("男");
+		student.setSex("女");
 		System.out.println(student.getId()+"--"+student.getName());
 				
 	}
